@@ -73,19 +73,65 @@ heading-primary {
 
 const communityReleases = [
     {
-        name: 'Theia 1.45.x (2024-02) - published',
-        releasedate: 'January 25th, 2024',
-        releasecandidatedate: 'December 21th, 2023',
-        technologiesin: 'February 1st, 2024',
-        releaseanouncement: 'February 8th, 2024',
+        name: 'Theia 1.49.x (2024-05) - planned',
+        releasedate: 'May 30th, 2024',
+        releasecandidatedate: 'April 25th, 2024',
+        technologiesin: 'June 6th, 2024',
+        releaseanouncement: 'June 13th, 2024',
         announcementurl: '',
         frameworks: [
             {
                 title: 'Eclipse GLSP',
                 url: 'https://www.eclipse.dev/glsp/',
-                version: '2.1.0',
+                version: 'TBD',
+                modules: []
+            },
+            {
+                title: 'Eclipse EMF.cloud',
+                url: 'https://www.eclipse.dev/emfcloud/',
+                version: 'TBD',
+                modules: []
+            },
+            {
+                title: 'Eclipse Sprotty',
+                url: 'https://www.eclipse.dev/sprotty/',
+                version: 'TBD',
+                modules: []
+            },
+            {
+                title: 'Eclipse CDT Cloud Debug Adapter',
+                url: 'https://projects.eclipse.org/projects/ecd.cdt-cloud',
+                version: 'TBD',
+                modules: []
+            },
+            {
+                title: 'Langium',
+                url: 'https://langium.org/',
+                version: 'TBD',
+                modules: []
+            },
+            {
+                title: 'Theia Trace Extension',
+                url: 'https://github.com/eclipse-cdt-cloud/theia-trace-extension',
+                version: 'TBD',
+                modules: []
+            }
+        ]
+    },
+    {
+        name: 'Theia 1.45.x (2024-02) - published',
+        releasedate: 'January 25th, 2024',
+        releasecandidatedate: 'December 21th, 2023',
+        technologiesin: 'February 1st, 2024',
+        releaseanouncement: 'February 8th, 2024',
+        announcementurl: 'https://eclipsesource.com/blogs/2024/02/08/the-eclipse-theia-community-release-2023-11/',
+        frameworks: [
+            {
+                title: 'Eclipse GLSP',
+                url: 'https://www.eclipse.dev/glsp/',
+                version: '2.1.0-theia1.45.0',
                 modules: [
-                    { modulename: '@eclipse-glsp/theia-integration', url: 'https://www.npmjs.com/package/@eclipse-glsp/theia-integration/v/2.1.0' }
+                    { modulename: '@eclipse-glsp/theia-integration', url: 'https://www.npmjs.com/package/@eclipse-glsp/theia-integration/v/2.1.0-theia1.45.0' }
                 ]
             },
             {
@@ -99,7 +145,7 @@ const communityReleases = [
             {
                 title: 'Eclipse Sprotty',
                 url: 'https://www.eclipse.dev/sprotty/',
-                version: 'TBD',
+                version: '1.1.0',
                 modules: []
             },
             {
@@ -114,14 +160,18 @@ const communityReleases = [
             {
                 title: 'Langium',
                 url: 'https://langium.org/',
-                version: 'TBD',
+                version: '2.1.0',
                 modules: []
             },
             {
                 title: 'Theia Trace Extension',
                 url: 'https://github.com/eclipse-cdt-cloud/theia-trace-extension',
-                version: 'TBD',
-                modules: []
+                version: '20240229144356.c22cb2c.0',
+                modules: [
+                    { modulename: 'theia-traceviewer', url: 'https://www.npmjs.com/package/theia-traceviewer' },
+                    { modulename: 'traceviewer-base', url: 'https://www.npmjs.com/package/traceviewer-base' },
+                    { modulename: 'traceviewer-react-components', url: 'https://www.npmjs.com/package/traceviewer-react-components' }
+                ]
             }
         ]
     },
@@ -401,6 +451,10 @@ const communityReleases = [
 ]
 
 const monthlyReleases = [
+    {
+        title: 'Eclipse Theia 1.46 Release: News and Noteworthy',
+        url: 'https://eclipsesource.com/blogs/2024/02/09/eclipse-theia-1-46-release-news-and-noteworthy/',
+    },
     {
         title: 'Eclipse Theia 1.45 Release: News and Noteworthy',
         url: 'https://eclipsesource.com/blogs/2023/12/29/eclipse-theia-1-45-release-news-and-noteworthy/',
